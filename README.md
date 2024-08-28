@@ -53,4 +53,25 @@ If you prefer not to install Octave locally, you can use Octave Online:
 
 ### Online Alternatives
 
-[... rest of the content remains the same ...]
+1. Google Colab:
+   - Go to [Google Colab](https://colab.research.google.com/).
+   - Create a new notebook.
+   - Copy and paste the Python code into a cell.
+   - Upload the CSV data file to the Colab environment.
+   - Adjust the file path in the code to match the uploaded file location.
+   - Run the cell to execute the code.
+
+2. Jupyter Notebook via Binder:
+   - Create a GitHub repository with your Python script and a `requirements.txt` file listing the necessary packages.
+   - Go to [Binder](https://mybinder.org/) and enter your GitHub repository URL.
+   - Click "Launch" to create a Jupyter Notebook environment with your code and dependencies.
+
+## Data
+
+Ensure that your data file (CSV format) is in the same directory as your script, or adjust the file path in the code accordingly.
+
+## Output
+
+The scripts will generate various plots and statistical analyses based on the telecommunications data. Check the console output for any additional information or results.
+
+For any issues or questions, please open an issue in this repository.
